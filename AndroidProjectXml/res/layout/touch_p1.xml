@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+ <EditText
+     android:id="@+id/textout"
+     android:layout_width="match_parent"
+     android:layout_height="76sp"
+     android:layout_weight="0.30"
+     android:ems="10"
+     android:hint="Enter Text"
+     android:inputType="text|textMultiLine"
+     android:singleLine="false" >
+
+     <requestFocus />
+    </EditText>
+
+
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="278sp"
+        android:layout_weight="0.52"
+        android:text="touchpad"
+        android:textSize="30sp"
+        android:background="#bbbbbb" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+<Button
+            android:id="@+id/leftclick"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_weight="0.50"
+            android:text="Double click   "
+            android:textSize="20sp"
+             />
+
+
+        <Button
+            android:id="@+id/rightclick"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_weight="0.50"
+            android:text="     Right click   "
+            android:textSize="20sp"
+             />
+        
+       </LinearLayout>
+</LinearLayout>
