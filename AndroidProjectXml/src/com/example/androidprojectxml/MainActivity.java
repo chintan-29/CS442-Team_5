@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
 		
 		public void onClick(View v) {
 			
-			
+		Toast.makeText(getApplicationContext(), "Connection Establish", Toast.LENGTH_LONG).show();	
 	        Intent 	i = new Intent(MainActivity.this,Touch.class);
 			startActivity(i); 
 			
