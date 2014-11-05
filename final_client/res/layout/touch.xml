@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <EditText
+        android:id="@+id/textout"
+        android:layout_width="match_parent"
+        android:layout_height="76sp"
+        android:layout_weight="5"
+        android:ems="10"
+        android:hint="Enter Text"
+        android:inputType="text|textMultiLine"
+        android:singleLine="false" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <ToggleButton
+                android:id="@+id/shift"
+                android:layout_width="76dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:paddingBottom="7dp"
+                android:textOn="Shift"
+                android:textOff="Shift"
+                
+                android:text="Shift" />
+
+            <ToggleButton
+                android:id="@+id/ctrl"
+                android:layout_width="76dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:paddingBottom="7dp"
+                 android:textOn="Ctrl"
+                android:textOff="Ctrl"
+                android:text="Ctrl" />
+
+            <ToggleButton
+                android:id="@+id/alt"
+                android:layout_width="76dp"
+                android:layout_height="46dp"
+                android:layout_weight="1"
+                android:paddingBottom="7dp"
+                 android:textOn="Alt"
+                android:textOff="Alt"
+                android:text="Alt" />
+
+            <Button
+                android:id="@+id/spec"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingTop="7dp"
+                android:text="Spec Keys" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="touchpad"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/leftclick"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_weight="0.50"
+            android:text="Double click   "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/rightclick"
+            android:layout_width="wrap_content"
+            android:layout_height="65sp"
+            android:layout_weight="0.50"
+            android:text="     Right click   "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

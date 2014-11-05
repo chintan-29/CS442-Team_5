@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:weightSum="4" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <Button
+                android:id="@+id/esc"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Esc" />
+
+            <Button
+                android:id="@+id/insert"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Insert" />
+
+            <Button
+                android:id="@+id/prntscr"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Prnt Scr" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Delete" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <Button
+                android:id="@+id/f1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="F1" />
+
+            <Button
+                android:id="@+id/f2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="F2" />
+
+            <Button
+                android:id="@+id/f3"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="F3" />
+
+            <Button
+                android:id="@+id/f4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="F4" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <Button
+                android:id="@+id/f5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F5" />
+
+            <Button
+                android:id="@+id/f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F6" />
+
+            <Button
+                android:id="@+id/f7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F7" />
+
+            <Button
+                android:id="@+id/f8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F8" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4" >
+
+            <Button
+                android:id="@+id/f9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="  F9 " />
+
+            <Button
+                android:id="@+id/f10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F10" />
+
+            <Button
+                android:id="@+id/f11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F11" />
+
+            <Button
+                android:id="@+id/f12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F12" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:weightSum="2" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/up"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Up" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="3" >
+
+                <Button
+                    android:id="@+id/left"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="60dp"
+                    android:layout_weight="1"
+                    android:text="Left" />
+
+                <Button
+                    android:id="@+id/down"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Down" />
+
+                <Button
+                    android:id="@+id/right"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="1"
+                    android:text="Right" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2" >
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <Button
+                    android:id="@+id/tab"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Tab" />
+
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Home" />
+
+                <Button
+                    android:id="@+id/pgup"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Pg Up" />
+
+                <Button
+                    android:id="@+id/pgdn"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Pg Dn" />
+
+                <Button
+                    android:id="@+id/end"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="End" />
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="5" >
+
+                <Button
+                    android:id="@+id/win"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Win" />
+
+                <Button
+                    android:id="@+id/fun"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Fun" />
+
+                <Button
+                    android:id="@+id/shifts"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Shift" />
+
+                <Button
+                    android:id="@+id/ctrls"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Ctrl" />
+
+                <Button
+                    android:id="@+id/alts"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:text="Alt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
