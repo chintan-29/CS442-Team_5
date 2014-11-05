@@ -1,6 +1,7 @@
 CS442-Team_5
 ============
 --> Start server AndroPcServer.jar in your laptop/pc by executing below command in your terminal. 
+       
        $ java -jar AndroPcServer.jar
        
 --> Now select wifi from menu in server application
